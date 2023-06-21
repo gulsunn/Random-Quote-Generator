@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-image:url("./img/frame.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.container{
+    padding: 5px;
+    text-align: center;
+    width: 55%;
+    height: auto;
+}
+
+.heading{
+    font-size: 3vw;
+    font-weight: 700;
+    color:rgb(0,95,135) ;
+}
+
+.quote{
+    font-size: 2.6vw;
+    font-weight: 600;
+}
+
+.author{
+    font-size: 2.2vw;
+    font-style: italic;
+}
+
+.btn{
+    font-size: 1.8vw;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+    text-transform: uppercase;
+    background-color:rgb(235,184,108) ;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:700px) {
+ .container{
+    width: 80%;
+ }
+}
+
+
+
+
+
